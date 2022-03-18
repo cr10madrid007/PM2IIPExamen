@@ -15,3 +15,4 @@ C:\Users\crist\source\repos\Examenes\PM2IIPExamen\PM2IIPExamen\bin\Debug\netstan
 C:\Users\crist\source\repos\Examenes\PM2IIPExamen\PM2IIPExamen\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\crist\source\repos\Examenes\PM2IIPExamen\PM2IIPExamen\obj\Debug\netstandard2.0\lista.xaml.g.cs
 C:\Users\crist\source\repos\Examenes\PM2IIPExamen\PM2IIPExamen\obj\Debug\netstandard2.0\vista.xaml.g.cs
+C:\Users\crist\source\repos\Examenes\PM2IIPExamen\PM2IIPExamen\obj\Debug\netstandard2.0\mapa.xaml.g.cs

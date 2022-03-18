@@ -132,6 +132,8 @@ namespace PM2IIPExamen
 
                     Debug.WriteLine(respuesta.Content.ReadAsStringAsync().Result);
                     await DisplayAlert("Proceso Terminado", "Datos Guardados", "OK");
+
+                    reset();
                 }
 
 
@@ -148,6 +150,15 @@ namespace PM2IIPExamen
         private void btnFoto_Clicked(object sender, EventArgs e)
         {
             tomar();
+        }
+
+        private void reset()
+        {
+            txtDescripcion.Text = "";
+            ruta = "";
+            imgFoto.Source = "paisajes.gif";
+            aud = 0;
+            recorder= new AudioRecorderService();
         }
 
         private async void btnGrabar_Clicked(object sender, EventArgs e)

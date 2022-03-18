@@ -27,7 +27,17 @@
   <uses-feature android:name="android.hardware.location.gps" android:required="false" />
   <uses-feature android:name="android.hardware.location.network" android:required="false" />
   <application android:label="PM2IIPExamen.Android" android:theme="@style/MainTheme" android:usesCleartextTraffic="true" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true" android:extractNativeLibs="true">
-    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyA10tpsEIzC6sxmXvc7XuvcDGgOLdgtiRQ" />
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyD9oAAZbEXbYJ3bR3nZiCgdSiAwN74ddow" />
+    <!--
+    <provider android:name="androidx.core.content.FileProvider"
+				android:authorities="com.companyname.pm2iipexamen.fileprovider"
+				android:exported="false"
+				android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+				android:resource="@xml/file_paths"></meta-data>
+    </provider>
+
+-->
     <provider android:name="androidx.core.content.FileProvider" android:authorities="com.companyname.pm2iipexamen.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
     </provider>
